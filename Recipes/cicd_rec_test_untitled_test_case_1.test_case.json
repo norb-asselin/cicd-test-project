@@ -1,0 +1,65 @@
+{
+  "name": "Untitled test case 1",
+  "description": "",
+  "recipe_id": {
+    "zip_name": "Recipes/cicd_rec_test.recipe.json",
+    "name": "[CICD] REC | Test",
+    "folder": "Recipes"
+  },
+  "mocks": [
+    {
+      "step_identifier": "858bf386",
+      "step_output": {
+        "scheduled_time": "2026-09-22T02:53:33.911565-07:00",
+        "scheduled_day": "Tuesday",
+        "scheduled_week": 38,
+        "scheduled_month": "September",
+        "last_job_time": null,
+        "on_demand": false
+      },
+      "type": "stub_output"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "569ba1dd-fc20-48e3-ab83-22f1e893ddd6",
+      "step_identifier": "8bae9227",
+      "name": "Check 1",
+      "source": {
+        "assertion_source_type": "step_output"
+      },
+      "operator": "equals",
+      "expectation": {
+        "message": "This is a test"
+      },
+      "type": "data"
+    },
+    {
+      "id": "8ccedb34-2e5b-4392-be85-4c31c82bfbf1",
+      "step_identifier": "3111c0d0",
+      "name": "Check 1",
+      "source": {
+        "assertion_source_type": "step_output"
+      },
+      "operator": "equals",
+      "expectation": {
+        "message": "This is an update"
+      },
+      "type": "data"
+    },
+    {
+      "id": "a86bf196-c56d-417e-b213-f465efa1a455",
+      "step_identifier": "22c849b3",
+      "name": "Check 1",
+      "source": {
+        "assertion_source_type": "step_output"
+      },
+      "operator": "equals",
+      "expectation": {
+        "message": "another message"
+      },
+      "type": "data"
+    }
+  ],
+  "body_digest": "29b8ba73bbf93322a4a96a3eca0a0d49"
+}
