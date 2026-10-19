@@ -1,10 +1,9 @@
 {
   "name": "CICD | REC-01 | Test",
   "description": "",
-  "version": 8,
+  "version": 9,
   "private": true,
   "concurrency": 1,
-  "version_comment": "Package_id: 2354439 | \nreq_id: 969d7d89-f10b-4130-a4e2-7a3301ca43e7 |\nrel= |",
   "code": {
     "number": 0,
     "provider": "clock",
@@ -66,12 +65,7 @@
           "flow_id": "FUN | 001"
         },
         "input": {
-          "flow_id": {
-            "zip_name": "CICD test project/Functions/fun_001.recipe.json",
-            "name": "FUN | 001",
-            "folder": "CICD test project/Functions",
-            "folder_full_path": "Home/Common/Functions"
-          }
+          "flow_id": "4087355"
         },
         "extended_output_schema": [
           {
@@ -105,7 +99,8 @@
             "type": "object"
           }
         ],
-        "uuid": "8a2d3ebd-c407-4a9e-b369-f4dec42dd691"
+        "uuid": "8a2d3ebd-c407-4a9e-b369-f4dec42dd691",
+        "skip": true
       },
       {
         "number": 2,
@@ -221,7 +216,7 @@
     {
       "keyword": "application",
       "provider": "workato_recipe_function",
-      "skip_validation": false,
+      "skip_validation": true,
       "account_id": null
     }
   ]

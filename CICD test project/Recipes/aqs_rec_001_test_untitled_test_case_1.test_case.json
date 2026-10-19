@@ -1,0 +1,12 @@
+{
+  "name": "Untitled test case 1",
+  "description": "",
+  "recipe_id": {
+    "zip_name": "CICD test project/Recipes/aqs_rec_001_test.recipe.json",
+    "name": "AQS | REC-001 | test",
+    "folder": "CICD test project/Recipes"
+  },
+  "mocks": null,
+  "assertions": null,
+  "body_digest": null
+}
